@@ -1,0 +1,47 @@
+.descrBlock {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.938rem, 0.67rem + 1.34vw, 1.875rem);
+}
+
+.title {
+  font-weight: 400;
+  font-size: clamp(1.5rem, 1.179rem + 1.61vw, 2.625rem);
+}
+
+.price {
+  font-weight: 500;
+  font-size: clamp(1.125rem, 1.018rem + 0.54vw, 1.5rem);
+}
+
+
+.btnBlock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addOrDelete {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 0.75rem + 1.25vw, 1.875rem);
+  padding: 0 10px;
+  border: 1px solid #b88e2f;
+  border-radius: 5px;
+}
+
+.count {
+  display: block;
+  cursor: pointer;
+}
+
+@media (max-width: 567px) {
+  .btnBlock {
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  .addOrDelete {
+    padding: 10px 0;
+    justify-content: space-around;
+  }
+}

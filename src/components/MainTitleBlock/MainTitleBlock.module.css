@@ -1,0 +1,26 @@
+.wrap {
+  background-color: #fff3e3;
+  margin-left: auto;
+  padding: 75px clamp(1.875rem, 0.982rem + 4.46vw, 5rem) 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.smallTitle {
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 3px;
+}
+
+.title1 {
+  font-weight: 700;
+  font-size: clamp(1.5rem, 1rem + 2.5vw, 3.25rem);
+  color: #b88e2f;
+}
+
+@media (max-width: 767px) {
+  .wrap {
+    background-color: transparent;
+  }
+}

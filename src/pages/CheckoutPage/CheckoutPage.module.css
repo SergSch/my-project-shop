@@ -1,0 +1,123 @@
+.wrap {
+  padding: 100px 60px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.inputsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inputsBlock label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.inputsBlock input,
+select {
+  height: 75px;
+  border-radius: 8px;
+  padding: 0 30px;
+}
+.names {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+}
+.names p {
+  position: absolute;
+  bottom: -23px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.total div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.totalBlock {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.checkBlock {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.checkBlock input {
+  margin-right: 10px;
+}
+
+.line {
+  background: #d9d9d9;
+  height: 1px;
+  width: 100%;
+  margin-top: 20px;
+}
+.lastname {
+  color: red;
+  right: 50px;
+}
+
+@media (max-width: 1140px) {
+  .wrap {
+    padding: 70px 30px;
+  }
+  .totalBlock {
+    width: 100%;
+  }
+  .inputsBlock {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 950px) {
+  .form {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    gap: 40px;
+    padding: 30px 0;
+  }
+  .totalBlock {
+    padding: 0;
+  }
+  .names {
+    flex-direction: column;
+  }
+  .text {
+    top: 100px;
+  }
+  .lastname {
+    left: 0;
+  }
+
+  .inputsBlock {
+    width: 100%;
+  }
+}

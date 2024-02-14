@@ -1,0 +1,4 @@
+.title {
+  font-weight: 700;
+  font-size: clamp(1.5rem, 1.357rem + 0.71vw, 2rem);
+}

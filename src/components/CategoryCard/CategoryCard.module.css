@@ -1,0 +1,16 @@
+.wrap {
+  cursor: pointer;
+  width: auto;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
+  margin: 20px;
+  border-radius: 20px;
+}
+.img {
+  width: 100%;
+}
+.title {
+  margin-top: 35px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}

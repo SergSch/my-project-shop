@@ -1,0 +1,26 @@
+.wrap {
+  background-image: url('./../../assets/images/subHeader.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap h3 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+}
+
+.route {
+  display: flex;
+  gap: 15px;
+}
+h4 {
+  word-wrap: 500px;
+  color: black;
+}

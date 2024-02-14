@@ -1,0 +1,14 @@
+.wrap {
+  background-color: #f9f1e7;
+  padding: clamp(0.938rem, 0.67rem + 1.34vw, 1.875rem)
+    clamp(1.25rem, 0.536rem + 3.57vw, 3.75rem);
+  display: flex;
+  align-items: center;
+  gap: clamp(0.438rem, 0.295rem + 0.71vw, 0.938rem);
+}
+.line {
+  width: 2px;
+  height: 40px;
+  display: block;
+  background-color: #000;
+}

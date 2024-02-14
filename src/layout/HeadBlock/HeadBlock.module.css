@@ -1,0 +1,9 @@
+.wrap {
+  background-image: url('../../assets/images/mainBG.jpeg');
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: clamp(3.125rem, 1.161rem + 9.82vw, 10rem) 55px 150px;
+  display: flex;
+}

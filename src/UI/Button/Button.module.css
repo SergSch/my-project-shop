@@ -1,0 +1,15 @@
+.btn {
+  padding: 25px 70px;
+  max-width: max-content;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:active {
+  position: relative;
+  top: 2px;
+}

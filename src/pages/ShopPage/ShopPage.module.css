@@ -1,0 +1,36 @@
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+.btnBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btnBlock button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.redBtn {
+  background-color: #b88e2f;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 620px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+}

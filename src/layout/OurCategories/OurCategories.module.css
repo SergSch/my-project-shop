@@ -1,0 +1,10 @@
+.wrap {
+  padding: clamp(1.875rem, 1.161rem + 3.57vw, 4.375rem) 0;
+}
+.slider {
+  margin: 0 auto;
+}
+.topBlock {
+  text-align: center;
+  margin-bottom: 60px;
+}

@@ -1,0 +1,27 @@
+.imageBlock {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  gap: clamp(0.625rem, 0.268rem + 1.79vw, 1.875rem);
+}
+.imageBlock div {
+  border-radius: 10px;
+}
+.smallBlock {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.938rem, 0.67rem + 1.34vw, 1.875rem);
+}
+
+.smallImgBlock img {
+  width: 80px;
+  aspect-ratio: 1;
+  border-radius: 10px;
+}
+.bigImage {
+  max-width: max-content;
+}
+.bigImage img {
+  width: clamp(12.5rem, 8.929rem + 17.86vw, 25rem);
+  border-radius: 10px;
+}

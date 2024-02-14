@@ -1,0 +1,13 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #000;
+  color: white;
+  width: 240px;
+  z-index: 10;
+}

@@ -1,0 +1,28 @@
+.wrap {
+  display: flex;
+  /* gap: 130px; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 48px 0;
+  text-align: left;
+}
+
+.line {
+  background: #d9d9d9;
+  height: 1px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.sign {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    gap: 50px;
+    padding: 20px 0;
+  }
+}
