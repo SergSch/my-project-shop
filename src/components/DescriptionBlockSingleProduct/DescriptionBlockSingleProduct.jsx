@@ -5,6 +5,7 @@ import Raiting from '../Raiting/Raiting';
 import Button from './../../UI/Button/Button';
 import { useAppDispatch } from '../../redux/hooks';
 import toast from 'react-hot-toast';
+import { addToCart } from '../../redux/features/cartSlice';
 
 const DescriptionBlockSingleProduct = () => {
   const singleProduct = useContext(SingleProductContext);
@@ -21,7 +22,7 @@ const DescriptionBlockSingleProduct = () => {
       price: parseInt(singleProduct.price),
       quantity: 1,
     };
-    dispatch(addProductCart(payload));
+    dispatch(addToCart(payload));
     toast.success('Added to Cart!');
     console.log(234);
   };
@@ -38,7 +39,7 @@ const DescriptionBlockSingleProduct = () => {
           <p>0</p>
           <p className={classes.count}>+</p>
         </div>
-        <Button text="Add To Cart" onClick={addProductCart} />
+        <Button text="Add To Cart" handleClick={addProductCart} />
         <Button text="+ Compare" />
       </div>
     </div>

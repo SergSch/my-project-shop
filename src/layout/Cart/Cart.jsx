@@ -25,11 +25,12 @@ const Cart = ({ setShowCart }) => {
         {data?.map((elem) => (
           <CartProduct
             key={elem.id}
-            id={elem.id}
-            img={elem.img}
-            title={elem.title}
-            quantity={elem.quantity}
-            price={elem.price}
+            // id={elem.id}
+            // img={elem.img}
+            // title={elem.title}
+            // quantity={elem.quantity}
+            // price={elem.price}
+            {...elem}
           />
         ))}
       </div>

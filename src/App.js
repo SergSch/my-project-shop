@@ -13,6 +13,7 @@ import AboutPage from './pages/AboutPage/AboutPage';
 import SecondShopPage from './pages/ShopPage/SecondShopPage/SecondShopPage';
 import ThirdShopPage from './pages/ShopPage/ThirdShopPage/ThirdShopPage';
 import CheckoutPage from './pages/CheckoutPage/CheckoutPage';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
+      <Toaster position="top-center" reverseOrder={false} />
     </div>
   );
 }
